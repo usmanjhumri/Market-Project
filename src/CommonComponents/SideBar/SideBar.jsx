@@ -69,7 +69,7 @@ const SideBar = ({ childComponent }) => {
               className="sidebar"
               sx={{
                 minWidth: "auto",
-               
+
                 borderTop: "none",
                 background: theme.primary.sideBarBg,
                 borderRight: "1px solid rgba(200, 200, 200, 0.39)",
@@ -159,8 +159,6 @@ const SideBar = ({ childComponent }) => {
 
           <Grid item xs={7} md={9}>
             {childComponent}
-
-          
           </Grid>
         </Grid>
       </Box>
